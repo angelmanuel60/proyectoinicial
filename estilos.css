@@ -1,0 +1,195 @@
+body, h1, h2, p, ul, li{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: #060;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.marque{
+    color: white;
+    font-size: 1.2rem;
+    height: 25px;
+    text-align: center;
+    position: sticky;
+    z-index: 900;
+    top: 172px;
+    white-space: nowrap;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+.marque p{
+    position: absolute;
+    animation: scroll 10s linear infinite;
+    top: 0;
+}
+@keyframes scroll{
+    from {
+        left: 100%;
+    }
+    to {
+        left: -100%;
+    }
+}
+.principal{
+    padding: 10px;
+    position: sticky;
+    z-index: 850;
+    background-color: #060;
+    top: 215px;
+    width: 100%;
+}
+.principal ul{
+    list-style: none;
+}
+.principal ul li{
+    margin-right: 1px;
+    float: left;
+    margin-left: 1%;
+}
+.principal ul li a{
+    color: #000;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.conte{
+    padding: 70px;
+    margin-left: 170px;
+    border: 1px solid #ddd;
+    margin: 180px;
+}
+.conte .column{
+    margin-right: 5%;
+    width: 30%;
+    float: left;
+}
+.conte .column:last-child{
+    margin-right: 0;
+}
+.clefix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.lengua{
+    margin-right: 5%;
+}
+.money{
+    margin-right: 100px;
+}
+footer{
+    text-align: center;
+    position: static;
+    top: 20px;
+    background-color: #808080;
+    padding: 10px;
+}
+.botonbuscador{
+    border: none;
+    background-color: #060;
+}
+.conte clefix{
+    margin-right: 50%;
+}
+.title{
+    margin-right: 100px;
+}
+.imagen{
+    margin-right: 2%;
+}
+.redes_sociales{
+    margin-left: 750px;
+}
+.tarjetas{
+    margin-right: 750px;
+}
+.cate{
+    text-align: left;
+}
+.subtitle{
+    margin-right: 6%;
+}
+
+
+
+
+
+
+
+/* A partir de aqui empieza la defensa*/
+
+.cuadro1{
+    margin-right: 3.3%;
+    width: 30%;
+    float: left;
+    background-color: #31E1D6;
+    
+}
+.cuadro2{
+    margin-right: 3.3%;
+    width: 30%;
+    float: left;
+    background-color: #F0B27A;
+}
+.cuadro3{
+    margin-right: 3.3%;
+    width: 30%;
+    float: left;
+    text-align: justify;
+    background-color: #138D75;
+}
+.texto1{
+    text-align: center;
+}
+.texto2{
+    text-align: center;
+}
+.texto3{
+    text-align: center;
+}
+.cuadrro1{
+    margin-right: 3.3%;
+    width: 30%;
+    float: left;
+}
+.text1{
+    margin-left: 2%;
+}
+.textt{
+    margin-left: 2%;
+
+}
+h5{
+    color: #95A5A6;
+}
+.textt1{
+    margin-left: 2%;
+    color: #2ECC71;
+}
+.fecha{
+    margin-left: 1%;
+    color: #95A5A6;
+}
+.text11{
+    margin-left: 70px;
+}
+.cua1{
+    margin-right: 3.3%;
+    width: 30%;
+    float: left;
+}
+.botton{
+    background-color: #82E0AA;
+    margin-right: 350px;
+}
